@@ -1,0 +1,47 @@
+Circuit: * C:\Users\1\Documents\LTspiceXVII\Draft1.asc
+
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh)),((vdd)),((vss)))"
+WARNING: Node N005 is floating.
+
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Increasing initial diagonal Gmin to 100
+Increasing initial diagonal Gmin to 1000
+Increasing initial diagonal Gmin to 10000
+Increasing initial diagonal Gmin to 100000
+Increasing initial diagonal Gmin to 1e+006
+Initial Gmin=1e+006 failed
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+vernier = 0.25
+Source Step = 0.0177557%
+Starting source stepping with srcstepmethod=1
+Source Step = 3.0303%
+vernier = 0.25
+Source stepping failed
+
+Pseudo transient terminated at 101.781 s, solution accepted ready or not!
+Ignoring empty pin current: Ix(u1:en)
+Ignoring empty pin current: Ix(u1:en)
+
+Date: Mon Nov 13 17:14:09 2023
+Total elapsed time: 0.830 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 17033
+traniter = 10219
+tranpoints = 5069
+accept = 5056
+rejected = 42
+matrix size = 181
+fillins = 112
+solver = Normal
+Thread vector: 14.9/5.0[6] 1.6/1.1[6] 5.9/1.1[6] 0.5/1.1[1]  2592/500
+Matrix Compiler1: 10.11 KB object code size  5.8/1.6/[0.5]
+Matrix Compiler2: 12.67 KB object code size  1.1/2.0/[0.4]
+
